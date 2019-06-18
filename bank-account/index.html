@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>PageTile</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5" id="col2">
+        <form class="bankForm" action="index.html" method="post">
+          <h2>Register a new account:</h2>
+          <div class="form-group">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name1" name="name">
+            <br>
+            <label for="initDeposit">Initial Deposit:</label>
+            <input type="number" name="initDeposit">
+          </div>
+          <button type="submit" name="button1" id="button1">Create new account!</button>
+        </form>
+      </div>
+      <div class="col-md-5" id="col2">
+        <form class="bankForm2" action="index.html" method="post">
+          <h2>Deposit or withdraw funds:</h2>
+          <div class="form-group">
+            <label for="deposit">Deposit Amount:</label>
+            <input type="number" name="deposit">
+            <br>
+            <label for="withdraw">Withdrawl Amount:</label>
+            <input type="number" name="withdraw">
+          </div>
+          <button type="submit" name="button2" id="button2">Submit</button>
+        </form>
+        <div class="output">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

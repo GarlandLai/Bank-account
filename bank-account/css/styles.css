@@ -1,0 +1,24 @@
+#col1 {
+  border: solid grey;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+#col2 {
+  border: solid grey;
+  border-radius: 25px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+#button1 {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#button2 {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 15px;
+}
